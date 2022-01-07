@@ -1,5 +1,3 @@
-% Encoding: UTF-8
-
 @Book{lemons2002,
   author    = {Lemons, D.S. and Langevin, P.},
   publisher = {Johns Hopkins University Press},
@@ -35,11 +33,12 @@
   volume  = {20},
 }
 
-@Book{Stull2012,
+@Book{stull2012,
   author    = {Stull, R.B.},
   publisher = {Springer Netherlands},
   title     = {An Introduction to Boundary Layer Meteorology},
   year      = {2012},
+  address   = {Dordrecht, Netherlands},
   isbn      = {9789400930278},
   series    = {Atmospheric and Oceanographic Sciences Library},
 }
@@ -90,14 +89,17 @@
   publisher = {Elsevier {BV}},
 }
 
-@Article{Panitz1994,
+@TechReport{Panitz1994,
   author    = {Panitz, H.J. and Vogel, B. and Vogel, H.},
   title     = {The Lagrangian particle model traveling version 92/3. Model description and users' guide},
   year      = {1994},
-  doi       = {10.5445/ir/270035362},
+  note      = {22.01.02; LK 01; KfK-4995 (März 94)},
+  copyright = {Open Access},
+  doi       = {10.5445/IR/270035362},
+  file      = {:Lit/panitz1994.pdf:PDF},
   groups    = {Trajectory},
-  language  = {en},
-  publisher = {Karlsruhe},
+  language  = {english},
+  publisher = {KITopen},
 }
 
 @Article{Stohl1998,
@@ -169,11 +171,12 @@
   publisher = {American Meteorological Society},
 }
 
-@Book{petterssen1956,
+@Book{Petterssen1956,
   author    = {Petterssen, Sverre},
   publisher = {McGraw-Hill},
   title     = {Weather Analysis and Forecasting. Vol. 2 Weather Weather Systems},
   year      = {1956},
+  address   = {New York, US},
   groups    = {Trajectory},
 }
 
@@ -185,6 +188,7 @@
   month   = {12},
   pages   = {295-308},
   volume  = {47},
+  file    = {:Lit/draxler1998.pdf:PDF},
   groups  = {Trajectory},
 }
 
@@ -240,6 +244,8 @@
   volume    = {28},
   comment   = {Dust emission, Wind erosion, europe scale, model},
   doi       = {10.1002/ldr.2588},
+  file      = {:Lit/borrelli2016.pdf:PDF},
+  groups    = {Erosion},
   publisher = {Wiley},
 }
 
@@ -410,6 +416,7 @@
   pages     = {1851--1863},
   volume    = {33},
   doi       = {10.1002/esp.1737},
+  file      = {:Lit/funk2008.pdf:PDF},
   groups    = {Dust},
   publisher = {Wiley},
 }
@@ -571,6 +578,7 @@
   pages     = {23--29},
   volume    = {29},
   doi       = {10.1016/j.aeolia.2017.09.004},
+  groups    = {Dust, Agriculture},
   publisher = {Elsevier {BV}},
 }
 
@@ -604,7 +612,7 @@
   year      = {2020},
   copyright = {Creative Commons Attribution 4.0 International},
   doi       = {10.5281/ZENODO.3965682},
-  groups    = {My Code},
+  groups    = {My Code, Datasets},
   language  = {en},
   publisher = {Zenodo},
 }
@@ -803,18 +811,6 @@
   publisher = {Elsevier {BV}},
 }
 
-@InCollection{Funk2006,
-  author    = {Roger Funk and Hannes Isaak Reuter},
-  booktitle = {Soil Erosion in Europe},
-  publisher = {John Wiley {\&} Sons, Ltd},
-  title     = {Wind Erosion},
-  year      = {2006},
-  month     = {oct},
-  pages     = {563--582},
-  doi       = {10.1002/0470859202.ch41},
-  groups    = {Dust},
-}
-
 @Article{Huneeus2011,
   author    = {N. Huneeus and M. Schulz and Y. Balkanski and J. Griesfeller and J. Prospero and S. Kinne and S. Bauer and O. Boucher and M. Chin and F. Dentener and T. Diehl and R. Easter and D. Fillmore and S. Ghan and P. Ginoux and A. Grini and L. Horowitz and D. Koch and M. C. Krol and W. Landing and X. Liu and N. Mahowald and R. Miller and J.-J. Morcrette and G. Myhre and J. Penner and J. Perlwitz and P. Stier and T. Takemura and C. S. Zender},
   journal   = {Atmospheric Chemistry and Physics},
@@ -977,7 +973,7 @@
   volume    = {63},
   doi       = {10.1016/j.geomorph.2004.03.009},
   file      = {:Lit/mackinnon2004.pdf:PDF},
-  groups    = {z0, Dust},
+  groups    = {Dust, z0},
   publisher = {Elsevier {BV}},
 }
 
@@ -992,7 +988,7 @@
   volume    = {110},
   doi       = {10.1029/2004jf000281},
   file      = {:Lit/king2005.pdf:PDF},
-  groups    = {z0, Dust},
+  groups    = {Dust, z0},
   publisher = {American Geophysical Union ({AGU})},
 }
 
@@ -1007,7 +1003,7 @@
   volume    = {118},
   doi       = {10.1002/jgrd.50313},
   file      = {:Lit/menut2013.pdf:PDF},
-  groups    = {z0, Dust},
+  groups    = {Dust, z0},
   publisher = {American Geophysical Union ({AGU})},
 }
 
@@ -1178,6 +1174,7 @@
   volume    = {102},
   doi       = {10.1029/96jd02964},
   file      = {:Lit/marticorena1997.pdf:PDF},
+  groups    = {Dust},
   publisher = {American Geophysical Union ({AGU})},
 }
 
@@ -1261,6 +1258,7 @@
   volume    = {93},
   doi       = {10.1029/jd093id10p12645},
   file      = {:Lit/gillette1988a.pdf:PDF},
+  groups    = {Dust, Agriculture},
   publisher = {American Geophysical Union ({AGU})},
 }
 
@@ -1277,14 +1275,366 @@
   publisher = {American Geophysical Union ({AGU})},
 }
 
+@Article{Martin2017,
+  author    = {Raleigh L. Martin and Jasper F. Kok},
+  journal   = {Science Advances},
+  title     = {Wind-invariant saltation heights imply linear scaling of aeolian saltation flux with shear stress},
+  year      = {2017},
+  month     = {jun},
+  number    = {6},
+  pages     = {e1602569},
+  volume    = {3},
+  doi       = {10.1126/sciadv.1602569},
+  file      = {:Lit/martin2017.pdf:PDF},
+  groups    = {Dust},
+  publisher = {American Association for the Advancement of Science ({AAAS})},
+}
+
+@Article{Schwartz1995,
+  author    = {R.C. Schwartz and D.W. Fryrear and B.L. Harris and J.D. Bilbro and A.S.R. Juo},
+  journal   = {Agricultural and Forest Meteorology},
+  title     = {Mean flow and shear stress distributions as influenced by vegetative windbreak structure},
+  year      = {1995},
+  month     = {jun},
+  number    = {1-3},
+  pages     = {1--22},
+  volume    = {75},
+  doi       = {10.1016/0168-1923(94)02206-y},
+  file      = {:Lit/schwartz1995.pdf:PDF},
+  groups    = {Vegetation},
+  publisher = {Elsevier {BV}},
+}
+
+@PhdThesis{,
+  author = {Matthias Zink},
+  title  = {Soil Moisture Droughts in Germany: Retrospective Analysis, Parametric Uncertainty, and Monitoring},
+  year   = {2016},
+  month  = sep,
+  file   = {:Lit/zink2016.pdf:PDF},
+}
+
+@Article{Cornelis2004,
+  author    = {Wim M. Cornelis and Donald Gabriels and Roger Hartmann},
+  journal   = {Geomorphology},
+  title     = {A parameterisation for the threshold shear velocity to initiate deflation of dry and wet sediment},
+  year      = {2004},
+  month     = {apr},
+  number    = {1-4},
+  pages     = {43--51},
+  volume    = {59},
+  doi       = {10.1016/j.geomorph.2003.09.004},
+  file      = {:Lit/cornelis2004.pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Randers2020,
+  author    = {Jorgen Randers and Ulrich Goluke},
+  journal   = {Scientific Reports},
+  title     = {An earth system model shows self-sustained thawing of permafrost even if all man-made {GHG} emissions stop in 2020},
+  year      = {2020},
+  month     = {nov},
+  number    = {1},
+  volume    = {10},
+  doi       = {10.1038/s41598-020-75481-z},
+  groups    = {Climate},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@InCollection{Marticorena2013,
+  author    = {B. Marticorena and P. Formenti},
+  booktitle = {Treatise on Geomorphology},
+  publisher = {Elsevier},
+  title     = {11.5 Fundamentals of Aeolian Sediment Transport: Long-Range Transport of Dust},
+  year      = {2013},
+  pages     = {64--84},
+  doi       = {10.1016/b978-0-12-374739-6.00298-0},
+  file      = {:Lit/marticorena2013.pdf:PDF},
+  groups    = {Dust},
+}
+
+@InCollection{Bullard2019,
+  author    = {Joanna Bullard and Matthew Baddock},
+  booktitle = {Aeolian Geomorphology},
+  publisher = {John Wiley {\&} Sons, Ltd},
+  title     = {Dust},
+  year      = {2019},
+  editor    = {Ian Livingstone and Andrew Warren},
+  month     = {jan},
+  pages     = {81--106},
+  doi       = {10.1002/9781118945650.ch4},
+}
+
+@Article{Beer2020,
+  author    = {Christof G. Beer and Johannes Hendricks and Mattia Righi and Bernd Heinold and Ina Tegen and Silke Gro{\ss} and Daniel Sauer and Adrian Walser and Bernadett Weinzierl},
+  journal   = {Geoscientific Model Development},
+  title     = {Modelling mineral dust emissions and atmospheric dispersion with {MADE}3 in {EMAC} v2.54},
+  year      = {2020},
+  month     = {sep},
+  number    = {9},
+  pages     = {4287--4303},
+  volume    = {13},
+  doi       = {10.5194/gmd-13-4287-2020},
+  file      = {:Lit/beer2020.pdf:PDF},
+  groups    = {Dust},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Chen2017,
+  author    = {Weiwei Chen and Daniel Q Tong and Shichun Zhang and Xuelei Zhang and Hongmei Zhao},
+  journal   = {Journal of Environmental Sciences},
+  title     = {Local {PM}10 and {PM}2.5 emission inventories from agricultural tillage and harvest in northeastern China},
+  year      = {2017},
+  month     = {jul},
+  pages     = {15--23},
+  volume    = {57},
+  doi       = {10.1016/j.jes.2016.02.024},
+  file      = {:Lit/chen2016.pdf:PDF},
+  groups    = {Agriculture},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Shao2000,
+  author    = {Yaping Shao and Hua Lu},
+  journal   = {Journal of Geophysical Research: Atmospheres},
+  title     = {A simple expression for wind erosion threshold friction velocity},
+  year      = {2000},
+  month     = {sep},
+  number    = {D17},
+  pages     = {22437--22443},
+  volume    = {105},
+  doi       = {10.1029/2000jd900304},
+  file      = {:Lit/shao2000.pdf:PDF},
+  groups    = {Dust},
+  publisher = {American Geophysical Union ({AGU})},
+}
+
+@Article{Shao2004,
+  author    = {Yaping Shao},
+  journal   = {Journal of Geophysical Research},
+  title     = {Simplification of a dust emission scheme and comparison with data},
+  year      = {2004},
+  number    = {D10},
+  volume    = {109},
+  doi       = {10.1029/2003JD004372},
+  file      = {:Lit/shao2004.pdf:PDF},
+  groups    = {Dust},
+  publisher = {American Geophysical Union ({AGU})},
+}
+
+@Article{Sparrow2021,
+  author    = {Sarah Sparrow and Andrew Bowery and Glenn D. Carver and Marcus O. Köhler and Pirkka Ollinaho and Florian Pappenberger and David Wallom and Antje Weisheimer},
+  journal   = {Geoscientific Model Development},
+  title     = {{OpenIFS}@home version 1: a citizen science project for ensemble weather and climate forecasting},
+  year      = {2021},
+  month     = {jun},
+  number    = {6},
+  pages     = {3473--3486},
+  volume    = {14},
+  doi       = {10.5194/gmd-14-3473-2021},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Prospero2021,
+  author    = {Joseph M. Prospero and Anthony C. Delany and Audrey C. Delany and Toby N. Carlson},
+  journal   = {Bulletin of the American Meteorological Society},
+  title     = {The Discovery of African Dust Transport to the Western Hemisphere and the Saharan Air Layer: A History},
+  year      = {2021},
+  month     = {jun},
+  number    = {6},
+  pages     = {E1239--E1260},
+  volume    = {102},
+  doi       = {10.1175/bams-d-19-0309.1},
+  groups    = {Dust},
+  publisher = {American Meteorological Society},
+}
+
+@Article{Sherman2020,
+  author    = {Douglas J. Sherman},
+  journal   = {Geomorphology},
+  title     = {Understanding wind-blown sand: Six vexations},
+  year      = {2020},
+  month     = {oct},
+  pages     = {107193},
+  volume    = {366},
+  doi       = {10.1016/j.geomorph.2020.107193},
+  groups    = {Dust},
+  publisher = {Elsevier {BV}},
+}
+
+@Misc{Buchhorn2020,
+  author    = {Buchhorn, Marcel and Smets, Bruno and Bertels, Luc and Roo, Bert De and Lesiv, Myroslava and Tsendbazar, Nandin-Erdene and Herold, Martin and Fritz, Steffen},
+  title     = {Copernicus Global Land Service: Land Cover 100m: collection 3: epoch 2019: Globe},
+  year      = {2020},
+  copyright = {Creative Commons Attribution 4.0 International},
+  doi       = {10.5281/ZENODO.3939050},
+  groups    = {Datasets},
+  keywords  = {Land cover, land use, globe, earth, remote sensing, satellite, copernicus, PROBA-V},
+  language  = {en},
+  publisher = {Zenodo},
+}
+
+@Article{Vos2020,
+  author    = {Ans De Vos and Beatrice I.J.M. Van der Heijden and Jos Akkermans},
+  title     = {Sustainable careers: Towards a conceptual model},
+  year      = {2020},
+  month     = {mar},
+  pages     = {103196},
+  volume    = {117},
+  doi       = {10.1016/j.jvb.2018.06.011},
+  file      = {:Lit/devos2018.pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Klose2021,
+  author    = {Martina Klose and Oriol Jorba and Mar{\'{\i}}a Gon{\c{c}}alves Ageitos and Jeronimo Escribano and Matthew L. Dawson and Vincenzo Obiso and Enza Di Tomaso and Sara Basart and Gilbert Montan{\'{e}} Pinto and Francesca Macchia and Paul Ginoux and Juan Guerschman and Catherine Prigent and Yue Huang and Jasper F. Kok and Ron L. Miller and Carlos P{\'{e}}rez Garc{\'{\i}}a-Pando},
+  title     = {Mineral dust cycle in the Multiscale Online Nonhydrostatic {AtmospheRe} {CHemistry} model ({MONARCH}) Version 2.0},
+  year      = {2021},
+  month     = {oct},
+  number    = {10},
+  pages     = {6403--6444},
+  volume    = {14},
+  doi       = {10.5194/gmd-14-6403-2021},
+  file      = {:Lit/klose2021.pdf:PDF},
+  groups    = {Dust},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Logothetis2021,
+  author    = {Stavros-Andreas Logothetis and Vasileios Salamalikis and Antonis Gkikas and Stelios Kazadzis and Vassilis Amiridis and Andreas Kazantzidis},
+  title     = {15-year variability of desert dust optical depth on global and regional scales},
+  year      = {2021},
+  month     = {nov},
+  number    = {21},
+  pages     = {16499--16529},
+  volume    = {21},
+  doi       = {10.5194/acp-21-16499-2021},
+  file      = {:Lit/logothetis2021.pdf:PDF},
+  groups    = {Dust},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Chappell2021,
+  author    = {Adrian Chappell and Nicholas Webb and Mark Hennen and Charles Zender and Philippe Ciais and Kerstin Schepanski and Brandon Edwards and Nancy Ziegler and Sandra Jones and Yves Balkanski and Daniel Tong and John Leys and Stephan Heidenreich and Robert Hynes and David Fuchs and Zhenzhong Zeng and Marie Ekström and Matthew Baddock and Jeffrey Lee and Tarek Kandakji},
+  journal   = {GMD Preprint},
+  title     = {Weaknesses in dust emission modelling hidden by tuning to dust in the atmosphere},
+  year      = {2021},
+  month     = {nov},
+  doi       = {10.5194/gmd-2021-337},
+  file      = {:Lit/chappell2021.pdf:PDF},
+  groups    = {Dust},
+  publisher = {Copernicus {GmbH}},
+}
+
+@Article{Janke_2021,
+  author    = {David Janke and Senthilathiban Swaminathan and Sabrina Hempel and Robert Kasper and Thomas Amon},
+  journal   = {Agronomy},
+  title     = {Particulate Matter Dispersion Modeling in Agricultural Applications: Investigation of a Transient Open Source Solver},
+  year      = {2021},
+  month     = {nov},
+  number    = {11},
+  pages     = {2246},
+  volume    = {11},
+  doi       = {10.3390/agronomy11112246},
+  file      = {:Lit/janke2021.pdf:PDF},
+  groups    = {Cited Me, Agriculture},
+  publisher = {{MDPI} {AG}},
+}
+
+@Article{Bullard_2011,
+  author    = {Joanna E. Bullard and Sandy P. Harrison and Matthew C. Baddock and Nick Drake and Thomas E. Gill and Grant McTainsh and Youbin Sun},
+  journal   = {Journal of Geophysical Research},
+  title     = {Preferential dust sources: A geomorphological classification designed for use in global dust-cycle models},
+  year      = {2011},
+  month     = {dec},
+  number    = {F4},
+  volume    = {116},
+  doi       = {10.1029/2011jf002061},
+  file      = {:Lit/bullard2011.pdf:PDF},
+  groups    = {Dust},
+  publisher = {American Geophysical Union ({AGU})},
+}
+
+@Article{Borrelli_2017,
+  author    = {Pasquale Borrelli and David A. Robinson and Larissa R. Fleischer and Emanuele Lugato and Cristiano Ballabio and Christine Alewell and Katrin Meusburger and Sirio Modugno and Brigitta Schütt and Vito Ferro and Vincenzo Bagarello and Kristof Van Oost and Luca Montanarella and Panos Panagos},
+  journal   = {Nature Communications},
+  title     = {An assessment of the global impact of 21st century land use change on soil erosion},
+  year      = {2017},
+  month     = {dec},
+  number    = {1},
+  volume    = {8},
+  doi       = {10.1038/s41467-017-02142-7},
+  file      = {:Lit/borrelli2017.pdf:PDF},
+  groups    = {Erosion},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Pi2021,
+  author    = {H. Pi and N.P. Webb and J. Lei and S. Li},
+  journal   = {Journal of Soil and Water Conservation},
+  title     = {Soil loss and {PM}10 emissions from agricultural fields in the Junggar Basin over the past six decades},
+  year      = {2021},
+  month     = {dec},
+  pages     = {00018},
+  doi       = {10.2489/jswc.2022.00018},
+  file      = {:Lit/pi2021.pdf:PDF},
+  groups    = {Dust, Erosion, Agriculture},
+  publisher = {Soil and Water Conservation Society},
+}
+
+@Article{Fryrear183,
+  author    = {Fryrear, D. W. and Bilbro, J. D. and Saleh, A. and Schomberg, H. and Stout, J. E. and Zobeck, T. M.},
+  journal   = {Journal of Soil and Water Conservation},
+  title     = {RWEQ: Improved wind erosion technology},
+  year      = {2000},
+  issn      = {0022-4561},
+  number    = {2},
+  pages     = {183--189},
+  volume    = {55},
+  eprint    = {https://www.jswconline.org/content/55/2/183.full.pdf},
+  publisher = {Soil and Water Conservation Society},
+  url       = {https://www.jswconline.org/content/55/2/183},
+}
+
+@InCollection{Funk2006,
+  author    = {Roger Funk and Hannes Isaak Reuter},
+  booktitle = {Soil Erosion in Europe},
+  publisher = {John Wiley {\&} Sons, Ltd},
+  title     = {Wind Erosion},
+  year      = {2006},
+  month     = {oct},
+  pages     = {563--582},
+  doi       = {10.1002/0470859202.ch41},
+  file      = {:Lit/funk2006.pdf:PDF},
+  groups    = {Dust, Erosion},
+}
+
+@Article{Lopez1998,
+  author    = {M.V. L{\'{o}}pez},
+  journal   = {{CATENA}},
+  title     = {Wind erosion in agricultural soils: an example of limited supply of particles available for erosion},
+  year      = {1998},
+  month     = {jul},
+  number    = {1},
+  pages     = {17--28},
+  volume    = {33},
+  doi       = {10.1016/s0341-8162(98)00064-2},
+  file      = {:Lit/lopez1998.pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
-1 StaticGroup:Trajectory\;0\;1\;0x8a8a8aff\;\;\;;
-1 StaticGroup:My Code\;0\;0\;0x003333ff\;\;\;;
-1 StaticGroup:Vegetation\;0\;1\;0x80b380ff\;\;\;;
-1 StaticGroup:Dust\;0\;0\;0xcc8033ff\;\;\;;
-1 StaticGroup:Soil Moisture\;0\;1\;0x8099ffff\;\;\;;
-1 StaticGroup:z0\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Trajectory\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:My Code\;0\;1\;0x003333ff\;\;\;;
+1 StaticGroup:Vegetation\;0\;0\;0x80b380ff\;\;\;;
+1 StaticGroup:Dust\;0\;1\;0xcc8033ff\;\;\;;
+1 StaticGroup:Erosion\;0\;1\;0xe6b34dff\;\;\;;
+1 StaticGroup:Soil Moisture\;0\;0\;0x8099ffff\;\;\;;
+1 StaticGroup:z0\;0\;0\;0xff6666ff\;\;\;;
+1 StaticGroup:Agriculture\;0\;1\;0xcccc66ff\;\;\;;
+1 StaticGroup:Datasets\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Climate\;0\;0\;0xff0000ff\;\;\;;
+1 StaticGroup:Cited Me\;0\;1\;0x8a8a8aff\;\;\;;
 }
